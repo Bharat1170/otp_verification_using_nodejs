@@ -1,0 +1,11 @@
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))" 
+to generate the jwt_secret_token
+
+routes
+/verify/request
+/verify/confirm
+
+
+
+
+

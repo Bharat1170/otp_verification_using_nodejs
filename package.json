@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.0.0",
+    "serverless-http": "^4.0.0",
+    "twilio": "^5.10.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "serverless": "^4.25.0"
+  }
+}
