@@ -2,11 +2,48 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 to generate the jwt_secret_token
 
 
-routes
+ROUTES
+------------------
 /verify/request
 /verify/confirm
 
 
+OTP Verification API — Backend
+---------------------------------------------------------------------------
+
+Node.js + Express + MongoDB + Twilio Verify + JWT + AWS Lambda (Serverless)
+
+A backend service that:
+
+Accepts a phone number
+
+Sends a verification code (OTP) via SMS using Twilio Verify
+
+Validates the OTP
+
+Marks user as verified in MongoDB
+
+Supports JWT-protected APIs
+
+Deploys to AWS Lambda + API Gateway using Serverless Framework
+
+
+
+Tech Stack
+---------------------
+Node.js + Express
+
+MongoDB (Atlas)
+
+Twilio Verify API
+
+JWT Authentication
+
+dotenv for environment variables
+
+Serverless Framework
+
+AWS Lambda + API Gateway
 
 
 
